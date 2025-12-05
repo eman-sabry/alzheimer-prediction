@@ -1,4 +1,4 @@
-/* ----- Fonts & Body ----- */
+
 body {
     font-family: 'Roboto', sans-serif;
  background-color: #000000;
@@ -10,7 +10,6 @@ body {
     color: #e0e0e0;
 }
 
-/* ----- Container ----- */
 .container {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 40px 50px;
@@ -21,9 +20,6 @@ body {
 
 }
 
-
-
-/* ----- Heading ----- */
 h1 {
     font-family: 'Orbitron', sans-serif;
     color: #d9d9d9;
@@ -33,11 +29,11 @@ h1 {
 label {
     text-align: left;
     font-size: 18px;
-    margin-bottom: 5px;
+
+    margin-bottom: 10px;
     display: block;
     color: #bfbfbf;
 }
-/* ----- File Input ----- */
 input[type="file"] {
     margin: 15px 0;
     padding: 10px;
@@ -54,7 +50,7 @@ input[type="file"]:hover {
     border-color: #5b5b5b;
 }
 
-/* ----- Button ----- */
+
 button {
     padding: 12px 25px;
     font-size: 16px;
@@ -75,7 +71,7 @@ button:hover {
     box-shadow: 0 0 20px #828282;
 }
 
-/* ----- Prediction Result ----- */
+
 .result {
     margin-top: 20px;
     padding: 20px;
@@ -83,7 +79,7 @@ button:hover {
 
 .result h2 {
     color: #cdcdcd;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   
 }
 
