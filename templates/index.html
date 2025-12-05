@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Alzheimer Prediction</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
@@ -22,6 +23,28 @@
                 <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="250">
             </div>
         {% endif %}
+        
     </div>
+    <section id="team">
+  <h2>Our Team</h2>
+  <div class="team-container">
+    <div class="member-card" onclick="showAlert('Sara mohammed')">
+      <img src="/static//image//saaara.jpg" alt="Sara">
+      <div class="member-name">Sara mohammed </div>
+    </div>
+    <div class="member-card" onclick="showAlert('abdelrahman essam')">
+      <img src="adbelrahman.jpg" alt="abdelrahman">
+      <div class="member-name">abdelrahman essam</div>
+    </div>
+    <div class="member-card" onclick="showAlert('Eman ')">
+      <img src="/static//image/emo.jpg" alt="Eman sabry">
+      <div class="member-name">Eman sabry </div>
+    </div>
+    <div class="member-card" onclick="showAlert('khaled maaiof')">
+      <img src="/static/image/khaled.jpg" alt="khaled">
+      <div class="member-name">khaled maaiof</div>
+    </div>
+  </div>
+</section>
 </body>
 </html>
