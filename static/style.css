@@ -1,0 +1,93 @@
+/* ----- Fonts & Body ----- */
+body {
+    font-family: 'Roboto', sans-serif;
+ background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+/* ----- Container ----- */
+.container {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #cbcacc, 0 0 80px #504f53;
+    text-align: center;
+    width: 400px;
+
+}
+
+
+
+/* ----- Heading ----- */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #d9d9d9;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px #ffffff;
+}
+label {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+    color: #bfbfbf;
+}
+/* ----- File Input ----- */
+input[type="file"] {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b3b3b3;
+    background-color: #252525;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+input[type="file"]:hover {
+    border-color: #5b5b5b;
+}
+
+/* ----- Button ----- */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+button:hover {
+    background: #000000;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #828282;
+}
+
+/* ----- Prediction Result ----- */
+.result {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.result h2 {
+    color: #cdcdcd;
+    margin-bottom: 15px;
+  
+}
+
+.result img {
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
